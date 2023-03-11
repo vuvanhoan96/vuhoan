@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(0, rgba(66, 63, 63, 0.5), rgba(48, 47, 47, 0.5)),url(./FPTschool.jpg);
+    background-size: 100%;
+}
+.list-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+}
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 52px;
+}
+.nav-list .logo{
+    display: flex;
+    align-items: center;
+}
+.nav-list .logo img{
+    width: 120px;
+    height: 70px;
+}
+.list{
+    display: flex;
+    list-style: none;
+    margin:0;
+    padding: 0;
+}
+.nav-list ul li a {
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    min-height: 80px;
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.main-container {
+    padding-top: 150px;
+    position: relative;
+}
+.content {
+    display: flex;
+    margin: 0 52px;
+    padding: 0 15px;
+    position: fixed;
+    bottom: 0;
+    justify-content: space-between;
+}
+.text-content {
+    box-sizing: border-box;
+    padding: 50px;
+}
+.text-content h1{
+    font-size: 34px;
+    line-height: 1.41;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 0 21px;
+    color: white;
+}
+.text-content h3 {
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin: 40px 0 20px 0;
+}
+.space-content {
+    padding-top: 133px;
+}
+.space-content img{
+    width: 347px;
+    height: 316px;
+}
+.form-content {
+  width: 356px;
+  height: 421px;
+  border-radius: 0 16px 0 16px;
+  padding: 70px 16px;
+  box-sizing: border-box;
+  position: relative;
+  background-color: white;
+
+}
+.form-content legend {
+    font-size: 20px;
+    font-family: "Verdana Bold", sans-serif;
+    color: #ea7126;
+    border: none;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.form-content div {
+    margin: 10px 0;
+    display: flex;
+}
+.form-content div input {
+    color: #666;
+    border: 1px solid #ccc;
+    padding: 0 1em;
+    line-height: 34px;
+    height: 40px;
+    /* width: 100%; */
+    box-sizing: border-box;
+    flex: 1;
+}
+.form-content div button {
+    font-size: 18px !important;
+    font-weight: 400;
+    font-family: "Verdana Regular", sans-serif;
+    text-align: center;
+    border-radius: 0 4px;
+    background-color: #ea7126;
+    border-color: #ea7126;
+    color: #ffffff;
+    position: relative;
+    padding: 6px 12px;
+}
+.form-content form .button {
+    justify-content: center;
+}
